@@ -1,0 +1,75 @@
+define(["config/main"], function (config) {
+
+	
+	var tracking = function () {
+		this.allow_tracking = false;
+		this.declare_sent = false;
+		this.last_view = false;
+		if (!this.storageAvailable()) {
+			return;
+		}
+		if (!config.dyn.ref || !config.dyn.id) {
+			return;
+		}
+		
+		var trackingKey = "last_view";
+		
+		var jsonObj = localStorage.getItem(trackingKey);
+		if (jsonObj) {
+			var obj = JSON.parse(jsonObj);
+			if (obj && obj.id && obj.ref) {
+				if (obj.id != config.dyn.id) {
+					this.last_view = obj;
+					this.allow_tracking = true;
+				}
+			}
+		}
+		
+		var current_view = {};
+		current_view.id = config.dyn.id;
+		current_view.ref = config.dyn.ref;
+		
+		localStorage.setItem(trackingKey, JSON.stringify(current_view));
+	};
+
+	tracking.prototype = {
+		storageAvailable: function () {
+			try {
+				var storage = window['localStorage'],
+						x = '__storage_test__';
+				storage.setItem(x, x);
+				storage.removeItem(x);
+				return true;
+			} catch (e) {
+				return false;
+			}
+		},
+		
+		declareLink: function () {
+			console.log("Try to declare link");
+			if (this.declare_sent) {
+				return;
+			}
+			if (!this.last_view) {
+				return; // No previous video
+			}
+			if (!this.allow_tracking) {
+				return; // 
+			}
+			
+			this.declare_sent = true;
+			
+			var data = {};
+			data.gentime = config.dyn.gentime;
+			data.source_id = this.last_view.id;
+			data.source_ref = this.last_view.ref;
+			data.current_id = config.dyn.id;
+			data.current_ref = config.dyn.ref;
+			
+			$.post("/video-hit", data);
+		}
+		
+	}
+	
+	return new tracking();
+});
