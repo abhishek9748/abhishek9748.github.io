@@ -577,7 +577,7 @@ main .nav-bar .list-1{
     transition: .5s;
     width: 10%;
     pointer-events: none;
-    
+    display: block;
     height:122.56%;
     border-radius: 50px;
     background:#F9C5D5;
