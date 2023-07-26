@@ -24,7 +24,7 @@ html{-webkit-tap-highlight-color: transparent;}
 @font-face {
 	font-family: 'Conv_Arizonia-Regular';
 	src: url('fonts/Arizonia-Regular.eot');
-	src: local('â˜º'), url('../fonts/Arizonia-Regular.woff') format('woff'), url('../fonts/Arizonia-Regular.ttf') format('truetype'), url('../fonts/Arizonia-Regular.svg') format('svg');
+	src: local('â˜º'), url('../fonts/Arizonia-Regular.woff2') format('woff2'), url('../fonts/Arizonia-Regular.ttf') format('truetype'), url('../fonts/Arizonia-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: fallback;
@@ -33,7 +33,7 @@ html{-webkit-tap-highlight-color: transparent;}
 @font-face {
 	font-family: 'Conv_LibreFranklin-Bold';
 	src: url('fonts/LibreFranklin-Bold.eot');
-	src: local('â˜º'), url('../fonts/LibreFranklin-Bold.woff') format('woff'), url('../fonts/LibreFranklin-Bold.ttf') format('truetype'), url('../fonts/LibreFranklin-Bold.svg') format('svg');
+	src: local('â˜º'), url('../fonts/LibreFranklin-Bold.woff2') format('woff2'), url('../fonts/LibreFranklin-Bold.ttf') format('truetype'), url('../fonts/LibreFranklin-Bold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: fallback;
@@ -42,7 +42,7 @@ html{-webkit-tap-highlight-color: transparent;}
 @font-face {
 	font-family: 'Conv_LibreFranklin-Black';
 	src: url('fonts/LibreFranklin-Black.eot');
-	src: local('â˜º'), url('../fonts/LibreFranklin-Black.woff') format('woff'), url('../fonts/LibreFranklin-Black.ttf') format('truetype'), url('../fonts/LibreFranklin-Black.svg') format('svg');
+	src: local('â˜º'), url('../fonts/LibreFranklin-Black.woff2') format('woff2'), url('../fonts/LibreFranklin-Black.ttf') format('truetype'), url('../fonts/LibreFranklin-Black.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: fallback;
@@ -51,7 +51,7 @@ html{-webkit-tap-highlight-color: transparent;}
 @font-face {
 	font-family: 'Conv_LibreFranklin-Regular';
 	src: url('fonts/LibreFranklin-Regular.eot');
-	src: local('â˜º'), url('../fonts/LibreFranklin-Regular.woff') format('woff'), url('../fonts/LibreFranklin-Regular.ttf') format('truetype'), url('../fonts/LibreFranklin-Regular.svg') format('svg');
+	src: local('â˜º'), url('../fonts/LibreFranklin-Regular.woff2') format('woff2'), url('../fonts/LibreFranklin-Regular.ttf') format('truetype'), url('../fonts/LibreFranklin-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: fallback;
