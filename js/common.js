@@ -85,39 +85,7 @@
               infinite: false ,
             });
          
-         var hold = false;
-         $(".pause").click(function(){
-         slider.slick("slickSetOption", "accessibility" , hold);
-         slider.slick("slickSetOption", "swipe" , hold);
-         slider.slick("slickSetOption", "touchmove" , hold);
-         slider.slick("slickSetOption", "autoplay" , hold);
-         
-         hold = !hold
-         
-         $(this).toggleClass("disabled")
-         });
-         
-         $(document).ready(function(){
-         $(".butt").click(function(){
-          $(".slick-current").addClass("zig"); 
-          $(".slick-track").addClass("stop");  
-          $(".slick-dots").addClass("fag");
-          $(".slick-list").addClass("nig");
-          $(".sub-holder2").addClass("sog");;
-         });
-         });
-         
-         $(document).ready(function(){
-         $(".cut").click(function(){
-          $(".slick-current").removeClass("zig");   
-          $(".slick-dots").removeClass("fag");
-          $(".slick-list").removeClass("nig");
-          $(".sub-holder2").removeClass("sog");
-          $(".slick-track").addClass("stop");
-         
-         });
-         });
-         
+
          const list = document.querySelectorAll(".limb");
          
          function activeLink() {
