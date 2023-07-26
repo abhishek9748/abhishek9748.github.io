@@ -219,7 +219,7 @@ main .sec-1 .vertical-center-3 .slick-dots{
 	
 }
 
-main .sec-1 .vertical-center-3 .fag{transform:translate(0,-83px); transition:.5s ;}
+
 main .sec-1 .vertical-center-3 .slick-dots li:nth-child(1):before{content: "cosmetics"; }
 main .sec-1 .vertical-center-3 .slick-dots li:nth-child(2):before{content: "hair blowers";}
 main .sec-1 .vertical-center-3 .slick-dots li:nth-child(3):before{content: " handbags";}
@@ -249,9 +249,7 @@ main .sec-1 .vertical-center-3 .slick-list{
 	transition-delay: 2s ;
 	overflow: visible;
 }
-main .sec-1 .vertical-center-3 .nig{
-	z-index: 1;
-}
+
 
 main .sec-1 > .vertical-center-3 > .slick-list > .slick-track{
 	padding:111px 0;
@@ -301,10 +299,7 @@ main .sec-1 > .vertical-center-3 > .slick-list > .slick-track > .slick-slide.sli
 	z-index: 0;
 
 }
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide.slick-current.zig .holder .sub-holder{
-	transform: rotateX(-25deg);	
-	transition: .5s;
-}
+
 main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder .sub-holder:before{
 	position: absolute;
 	transition: .5s;
@@ -374,139 +369,7 @@ main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder
 	border: 0;
 	cursor: pointer;
 }
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide.slick-current div .holder .sog {
-	padding: 0;
-	position: fixed;
-    transform-origin:center;
-    animation:huggl 1.4s ;
-    animation-iteration-count: 1;
-    z-index:4;
-    transform:translate(-50%, -78%) scale(1.0);
-}
-@keyframes huggl{
-	0%  {transform:translate(-50%, -89%) scale(0.3); z-index:-2; }
-	50% {transform:translate(-50%, -180%) scale(0.7); z-index:-2;  }
-	100% {transform:translate(-50%, -78%) scale(1); z-index:4;  }
-}
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder .sub-holder2{
-	display: inline-block;
-    height: 138%;
-    width: 190%;
-	padding: 0;
-	position: absolute;
-    transform:translate(-50%, -89%) scale(0.3);
-    transform-origin:center;
-    animation:hugglo 1.4s ;
-    animation-iteration-count: 1;
-    z-index: -2;
-    overflow: hidden;
-    background: #f999b7;
-    border-radius: 50px;
-    box-shadow: 11px 12px 20px -2px #ed6e96;
-}
-@keyframes hugglo{
-	0% {transform:translate(-50%, -78%) scale(1.0); z-index:4;   }
-	50% {transform:translate(-50%, -180%) scale(0.7); z-index:-2;  }
-	100%  {transform:translate(-50%, -89%) scale(0.3); z-index:-2; }
-	
-}
 
-
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder .sub-holder2 .cut{
-	display: inline-block;
-    margin: 0;
-    padding: 1.6% 2.5%;
-    font-family: 'Conv_LibreFranklin-Bold';
-    background: #f9c5d5;
-    text-decoration: none;
-    text-shadow: -1px 6px 10px;
-    color: #f2789f;
-    right: 0;
-    box-shadow: 0 20px 20px 0;
-    position: absolute;
-    z-index: 4;
-    border-radius: 0 50%;
-}
-
-
-
-main .sec-1 .sub-holder2 > .vertical-center-5{ width: 100%; height: 100%;}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list{width: 100%; height: 100%; padding: 1% !important;}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track{ padding: 25px 0; width: 100%; height: 100%; }
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide{ padding: 0 1%; transition: .5s; width: 100%; height: 100%;  }
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div {width: 100%; height: 100%;}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div  .chart { 
-	display: inline-block;  
-	height:100%;
-	box-shadow: 12px 12px 24px #f2789f;
-	background: #f999b7;
-	border-radius: 50px;
-	width:20%;
-	padding:3%;
-}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div  .chart img {
- display: inline-block;  
- height: 100%;
- width:20%;
- object-fit: contain;
- filter: drop-shadow(12px 1px 7px #F2789F);
- 
-}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div  .chart .hold-2{display: inline-block;
-    width: 70%;
-    height: 100%;
-    background: #f8bed0;
-    border-radius: 50px;
-    box-shadow: 12px 12px 24px #f2789f;
-    overflow: hidden;
-}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div  .chart .hold-2 .up{
-	display: inline-block;
-	height:70%;
-}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div  .chart .hold-2 .up h5{
-	    font-family: 'Conv_LibreFranklin-Bold';
-	    text-transform: capitalize;
-	    color: #f8bed0;
-	    background: #F2789F;
-	    padding: 1% 6%;
-	    border-radius: 0 0 50px 50px;
-	    margin: 0;
-	    display: inline-block;
-	    font-size: 100%;
-}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div  .chart .hold-2 .up p{
-	font-family: 'Conv_LibreFranklin-Bold';
-	text-transform: capitalize;
-	color: #F2789F;
-	margin: 0;
-	font-size: 78%;
-	padding: 4%;
-	display: inline-block;
-}
-
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div .chart .hold-2 .down{
-	width: 100%;
-	height: 30%;
-	display: inline-block;
-	text-align: center;
-}
-
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div .chart .hold-2 .down a{
-    font-family: 'Conv_LibreFranklin-Bold';
-    text-transform: capitalize;
-    background: #F2789F;
-    color: #f8bed0;
-    padding: 2% 3%;
-    border-radius: 50px;
-    margin: 0;
-    display: inline-block;
-    font-size: 100%;
-    box-shadow: 11px 12px 20px -2px #ed6e96;
-    right: 38%;
-    bottom: 0;
-    text-decoration: none;
-    }
 
 
 
@@ -737,9 +600,7 @@ main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder
 	transform: translate(0px, -279px);
 	height: 25px;
 }
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder .sub-holder2 .cut{
-	padding: 2.6% 4.5%;
-}
+
 main .sec-1 .vertical-center-3 .slick-dots{
 	top: -378px;
 	width: 149px;
@@ -756,10 +617,7 @@ main .sec-1 .vertical-center-3 .slick-dots li{
 	width: 100%;
 	top: 0;	
 }
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide div .holder .sub-holder2{
-    height: 180%;
-    width: 108%;
-}
+
 .zo{top: -43%;}
 main .nav-bar .list-1 li:nth-child(1).active ~ .zo{transform: translate(120%, 0);}
 main .nav-bar .list-1 li:nth-child(2).active ~ .zo{transform: translate(285%, 0);}
@@ -769,28 +627,15 @@ main .nav-bar .list-1 li:nth-child(5).active ~ .zo{transform: translate(780%, 0)
 	50% {width: 90%; height: 90%; }
 	100% {width: 100%; height: 138%; }
 }
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div .chart img{
-	width: 100%;
-	height: 45%;
-	padding: 3%;
-}
 
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide div .chart .hold-2{
-	width: 100%;
-	height: 55%;
-}
 
 }
 @media(max-width:480px) {
 main .sec-1 .vertical-center-3 .slick-list{
 	padding: 0 10px !important;
 }
-main .sec-1 .vertical-center-3 .slick-list .slick-track .slick-slide.slick-current div .holder .sog {
-	width: 100%;
-	height: 180%;
-}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track{padding: 0; width: 401% !important;}
-main .sec-1 .sub-holder2 > .vertical-center-5 .slick-list .slick-track .slick-slide{padding: 1%; width: 25% !important;}
+
+
 
 
 main .nav-bar{padding: 20px 0 7px;}
