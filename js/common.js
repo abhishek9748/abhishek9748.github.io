@@ -103,7 +103,10 @@
           console.log(`someMethodIThinkMightBeSlow took ${duration}ms`);
        }
          
-         
-         
-         
+        $(".yum").click(function(){
+          $(".my").addClass("intro");
+          $("header").addClass("a");
+          $(".nav-bar").addClass("b");
+        });  
+
          });
